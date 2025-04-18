@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Online Sederhana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Logo Toko" class="logo">
+            <h1>Toko Online Sederhana</h1>
+            <nav>
+                <ul>
+                    <li><a href="#produk">Produk</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="produk" class="container">
+        <h2>Produk Kami</h2>
+        <div class="produk">
+            <div class="item-produk">
+                <input type="checkbox" id="produk1" data-nama="Produk 1" data-harga="100000">
+                <img src="https://via.placeholder.com/250" alt="Produk 1">
+                <h3>Produk 1</h3>
+                <p class="harga">Harga: Rp 100.000</p>
+                <p class="deskripsi">Deskripsi Produk 1: Produk ini sangat berkualitas dan cocok untuk kebutuhan sehari-hari Anda.</p>
+            </div>
+            <div class="item-produk">
+                <input type="checkbox" id="produk2" data-nama="Produk 2" data-harga="150000">
+                <img src="https://via.placeholder.com/250" alt="Produk 2">
+                <h3>Produk 2</h3>
+                <p class="harga">Harga: Rp 150.000</p>
+                <p class="deskripsi">Deskripsi Produk 2: Produk ini memiliki fitur canggih dan sangat berguna untuk aktivitas Anda.</p>
+            </div>
+            <div class="item-produk">
+                <input type="checkbox" id="produk3" data-nama="Produk 3" data-harga="200000">
+                <img src="https://via.placeholder.com/250" alt="Produk 3">
+                <h3>Produk 3</h3>
+                <p class="harga">Harga: Rp 200.000</p>
+                <p class="deskripsi">Deskripsi Produk 3: Dirancang untuk mereka yang mencari kualitas terbaik.</p>
+            </div>
+            <div class="item-produk">
+                <input type="checkbox" id="produk4" data-nama="Produk 4" data-harga="250000">
+                <img src="https://via.placeholder.com/250" alt="Produk 4">
+                <h3>Produk 4</h3>
+                <p class="harga">Harga: Rp 250.000</p>
+                <p class="deskripsi">Deskripsi Produk 4: Produk premium dengan bahan berkualitas tinggi, cocok untuk penggunaan jangka panjang.</p>
+            </div>
+            <div class="item-produk">
+                <input type="checkbox" id="produk5" data-nama="Produk 5" data-harga="300000">
+                <img src="https://via.placeholder.com/250" alt="Produk 5">
+                <h3>Produk 5</h3>
+                <p class="harga">Harga: Rp 300.000</p>
+                <p class="deskripsi">Deskripsi Produk 5: Menggunakan teknologi terbaru untuk kenyamanan Anda.</p>
+            </div>
+        </div>
+        <button onclick="tambahKeKeranjangBanyak()">Tambah 5 Produk ke Keranjang</button>
+    </section>
+
+    <section id="kontak" class="container">
+        <h2>Kontak Kami</h2>
+        <p>Email: toko@online.com</p>
+        <p>WhatsApp: +62 123 456 7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Toko Online Sederhana | Desain oleh Anda</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
